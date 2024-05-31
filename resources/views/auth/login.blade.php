@@ -8,7 +8,7 @@
             <h1 class="text-3xl font-bold mb-7">Selamat Datang!</h1>
             <div class="w-full md:w-8/12 mx-auto">
                 {{-- error --}}
-                <p class="text-sm font-semibold text-red-500">Gagal masuk! Pastikan username atau password benar.</p>
+                <p class="text-sm font-semibold text-red-500 hidden">Gagal masuk! Pastikan username atau password benar.</p>
                 <form action="">
                     <label for="username" class="block font-bold text-xl">Username</label>
                     <input type="text" id="username" name="username" placeholder="Username kamu" class="w-full border-none focus:outline-none">

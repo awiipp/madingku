@@ -8,12 +8,12 @@
             <h1 class="text-3xl font-bold mb-7">Buat Akun</h1>
             <div class="w-full md:w-8/12 mx-auto">
                 <form action="">
-                    <p class="text-sm font-semibold text-red-500">Email sudah digunakan.</p>
+                    <p class="text-sm font-semibold text-red-500 hidden">Email sudah digunakan.</p>
                     <label for="email" class="block font-bold text-xl">Email</label>
                     <input type="email" id="email" name="email" placeholder="Email kamu" class="w-full border-none focus:outline-none">
                     <div class="w-full h-0.5 bg-neutral-900 mb-6 mt-1"></div>
 
-                    <p class="text-sm font-semibold text-red-500">Username sudah digunakan.</p>
+                    <p class="text-sm font-semibold text-red-500 hidden">Username sudah digunakan.</p>
                     <label for="username" class="block font-bold text-xl">Username</label>
                     <input type="text" id="username" name="username" placeholder="Username kamu" class="w-full border-none focus:outline-none">
                     <div class="w-full h-0.5 bg-neutral-900 mb-6 mt-1"></div>
